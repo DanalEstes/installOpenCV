@@ -1,4 +1,4 @@
-# PiInstallOpenCV
+# installOpenCV
 Comprehensive installer for OpenCV on Raspbian (raspberry Pi).  Does NOT install virtualized.
 
 * Primarily intended for installing OpenCV on top of the Raspbian image provided by Duet for their Duet RepRap V3 based printers.  May work with some other versions of raspbian. 
