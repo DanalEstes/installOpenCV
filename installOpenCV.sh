@@ -63,6 +63,7 @@ sudo apt-get install -y ant default-jdk
 # Documentation and other:
 sudo apt-get install -y doxygen unzip wget
 
+sudo apt-get install -y imutils
 
 # 3. INSTALL THE LIBRARY
 
@@ -95,3 +96,11 @@ sudo make install
 sudo ldconfig
 
 
+# ---------------------- |
+# Also install imutils   |
+# ---------------------- |
+cd ~
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python3 get-pip.py
+rm get-pip.py
+sudo pip install imutils
