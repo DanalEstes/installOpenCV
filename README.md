@@ -8,5 +8,7 @@ Comprehensive installer for OpenCV on Raspbian (raspberry Pi).  Does NOT install
 
 ## Running the script
 ```wget https://raw.githubusercontent.com/DanalEstes/installOpenCV/master/installOpenCV.sh -o installOpenCV.sh```
+
 ```chmod 744 installOpenCV.sh```
+
 ```./installOpenCV.sh```
